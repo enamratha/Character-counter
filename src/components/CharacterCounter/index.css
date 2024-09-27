@@ -1,0 +1,66 @@
+.counter-img {
+  height: 40vh;
+  width: 35vw;
+}
+
+.result-container {
+  background-color: #ffc533;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.output-container {
+  background-color: #ffbf1f;
+  width: 38vw;
+  padding: 10px;
+  height: 65vh;
+  color: #0f172a;
+}
+.counter-container {
+  background-color: #0f172a;
+  width: 38vw;
+  height: 65vh;
+  padding: 10px;
+  color: #ffbf1f;
+}
+.add-btn {
+  background-color: #ffbf1f;
+  border: 0;
+  height: 35px;
+  width: 70px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.input-element {
+  height: 35px;
+  border-radius: 4px;
+  outline: none;
+  flex-grow: 1;
+}
+
+.input-section {
+  display: flex;
+  align-items: center;
+}
+
+.word-list {
+  list-style-type: none;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.word-count {
+  display: flex;
+  font-family: 'roboto';
+  color: #0f172a;
+  margin: 0;
+  margin-bottom: 2px;
+}
